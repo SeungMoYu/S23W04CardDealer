@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff0"
+    android:background="#060"
     tools:context=".MainActivity">
 
     <ImageView
@@ -48,6 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/card4"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/btn_shuffle"
         android:layout_width="match_parent"
